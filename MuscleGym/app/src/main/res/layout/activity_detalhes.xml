@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g04"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context=".DetalhesActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suplemento Cadastrado!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvNomeSuplementoDetalhes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome: "
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tvDescricaoDetalhes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição: "
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tvPrecoDetalhes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço: "
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/red"
+        android:text="Voltar"
+        android:textSize="25sp" />
+
+</LinearLayout>
